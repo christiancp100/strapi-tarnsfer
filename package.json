@@ -1,0 +1,32 @@
+{
+  "name": "strapi-transfer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@strapi/plugin-i18n": "4.7.0-beta.0",
+    "@strapi/plugin-users-permissions": "4.7.0-beta.0",
+    "@strapi/strapi": "4.7.0-beta.0",
+    "axios": "^1.3.3",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "eff9937f-3900-40df-8900-63095fe7f4db"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
